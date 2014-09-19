@@ -1,0 +1,4 @@
+ErlScratchPad
+=============
+
+for erlang study

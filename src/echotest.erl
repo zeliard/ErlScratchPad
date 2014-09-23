@@ -40,7 +40,7 @@ start_client(Count) ->
 			timer:sleep(10),
 			client_connect(),
 			start_client(Count-1);
-		Count==0 ->
+		Count=:=0 ->
 			io:format("Connect Request Complete ~n", [])
 	end.
 
